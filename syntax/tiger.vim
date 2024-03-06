@@ -11,11 +11,11 @@ syntax region tigerComment start="/\*" end="\*/" fold
 syntax keyword tigerConditional if then else
 syntax keyword tigerRepeat for to while do
 syntax keyword tigerTypeDef type
-syntax keyword tigerStatement function var break let in end
-syntax keyword tigerStructure array of nil
+syntax keyword tigerStatement class extends function var break let in end
+syntax keyword tigerStructure new array of nil
 syntax keyword tigerBuiltInType int string
 syntax keyword tigerBuiltInFn chr concat exit flush getchar not ord print print_err print_int size strcmp streq substring
-syntax keyword tigerOperator := + - * / \| &
+syntax keyword tigerOperator := + - * / \| & = <> <= < >= >
 syntax match tigerIntegerLiteral '[0-9]\+'
 syntax match tigerIdentifier '[a-zA-Z_][a-zA-Z_0-9]\+'
 syntax match tigerEscapeSequence '\\[\\nt"]' contained
