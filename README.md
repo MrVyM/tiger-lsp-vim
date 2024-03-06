@@ -16,7 +16,7 @@ where `[pack-folder]` is whatever you named this folder when you set it up.
 
 From there, run:
 
-    git clone https://www.github.com/chclouse/tiger-vim.git
+    git clone https://github.com/MrVyM/tiger-lsp-vim
 
 To update in the future, go to this same folder and run:
 
@@ -26,7 +26,13 @@ To update in the future, go to this same folder and run:
 
 To install using [vim-plug], just add this line to your `.vimrc`:
 
-    Plug 'chclouse/tiger-vim'
+    Plug 'MrVyM/tiger-lsp-vim'
+
+### Packer 
+
+To install using [packer], just add this line to your `.vimrc`:
+
+    use 'MrVyM/tiger-lsp-vim'
 
 ## Copyright
 
@@ -36,3 +42,4 @@ This VIM plugin is licensed under the MIT License.
 
 [Pathogen]: https://github.com/tpope/vim-pathogen
 [vim-plug]: https://github.com/junegunn/vim-plug
+[packer]: https://github.com/wbthomason/packer.nvim
