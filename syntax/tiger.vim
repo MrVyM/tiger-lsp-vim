@@ -1,7 +1,7 @@
 " Vim syntax file
 " Language: Tiger
-" Maintainer: Christopher Clouse
-" Latest Revision: 1 April 2018
+" Maintainer: MrVym
+" Latest Revision: 3 March 2024 
 
 if exists("b:current_syntax")
     finish
